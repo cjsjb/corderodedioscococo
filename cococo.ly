@@ -30,6 +30,7 @@ globalTempo = {
 		\include "cococo-acordes.inc"
 		\include "cococo-soprano.inc"
 		\include "cococo-mezzo.inc"
+		\include "cococo-tenor.inc"
 
 	>> % notes
 

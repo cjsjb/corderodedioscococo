@@ -6,7 +6,7 @@
 	\new Voice \global
 	\new Voice \globalTempo
 
-	\context Voice = "voice 1" {
+	\context Voice = "voz-soprano" {
 		\override Voice.TextScript #'padding = #2.0
 		\override MultiMeasureRest #'expand-limit = 1
 
@@ -53,7 +53,7 @@
 		\bar "|."
 	} % Voice
 
-	\lyricsto "voice 1" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voz-soprano" {
 		%\set ignoreMelismata = ##t
 		"Cor" -- "de" -- "ro" "de" "Dios,"
 		"que" "qui" -- "tas" "el" "pe" -- "ca" -- "do" "del" "mun" -- "do,"

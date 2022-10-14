@@ -49,7 +49,7 @@
 		\bar "|."
 	} % Voice
 
-	\lyricsto "voz-mezzo" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voz-mezzo" {
 		%\set ignoreMelismata = ##t
 		Cor -- de -- ro de Dios... __
 		"...el" pe -- ca -- do del mun -- do,
